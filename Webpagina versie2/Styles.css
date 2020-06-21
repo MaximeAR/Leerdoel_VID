@@ -1,0 +1,295 @@
+
+/*algemeen*/
+
+#body {
+    Display: block;
+    Justify-content: center;
+    Align-items: center;
+    position:relative;
+}
+
+#body.invert {
+    filter: invert(100%);
+    background-color: #0f1620;
+    Display: block;
+    Justify-content: center;
+    Align-items: center;
+    position:relative;
+}
+
+
+
+
+
+
+#IMG1 {
+    position:absolute;
+        top: 135px;
+    height:700px;
+    width:1665px;
+}
+
+#IMG2 {
+    position:absolute;
+        top: 135px;
+    height:700px;
+    width:1665px;
+    opacity: 100%
+}
+
+
+
+#IMG2 {
+    animation-name: dissolve;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dissolve {
+    from { opacity: 100%; }
+    10% { opacity: 0%; }
+    55% { opacity: 0%; }
+    65% { opacity: 100%; }
+    to { opacity: 100%; }
+}
+
+
+#IMG3 {
+    position:absolute;
+        top: 1624px;
+    height:480px;
+    width:420px;
+}
+
+#Natuur {
+    position:absolute;
+        top: 950px;
+        left: 50px;
+    height:430px;
+    width:350px;
+}
+
+#Panter {
+    position:absolute;
+        top: 980px;
+        left: 380px;
+    height:380px;
+    width:300px;
+}
+
+#Cactus {
+    position:absolute;
+        top: 995px;
+        left: 705px;
+    height:340px;
+    width:270px;
+}
+
+#Donker {
+    position:absolute;
+        top: 930px;
+        left: 950px;
+    height:480px;
+    width:390px;
+}
+
+#Roze {
+    position:absolute;
+        top: 900px;
+        left: 1235px;
+    height:530px;
+    width:440px;
+}
+
+
+
+/*-----------------------------*/
+
+
+#Bol_1 {
+    fill: #ffffff;
+}
+
+#Bol_1 :hover {
+    fill: #4d4d4d;
+}
+
+/*-----------------------------*/
+
+
+#Natuur:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#Panter:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#Cactus:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+#Donker:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+#Roze:hover {
+    animation: rotate 1s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/*-----------------------------*/
+
+#Blokje_1 {
+    fill: #C4BCBC;
+}
+
+#Blokje_1 :hover {
+    fill: #C4D6E5;
+}
+
+
+#Blokje_2 {
+    fill: #C4BCBC;
+}
+
+#Blokje_2 :hover {
+    fill: #C4D6E5;
+}
+
+
+#Blokje_3 {
+    fill: #C4BCBC;
+}
+
+#Blokje_3 :hover {
+    fill: #C4D6E5;
+}
+
+
+#Blokje_4 {
+    fill: #C4BCBC;
+}
+
+#Blokje_4 :hover {
+    fill: #C4D6E5;
+}
+
+
+#Blokje_5 {
+    fill: #C4BCBC;
+}
+
+#Blokje_5 :hover {
+    fill: #C4D6E5;
+}
+
+
+/*-----------------------------*/
+
+
+#Facebook {
+    opacity: 0%;
+}
+
+#Facebook.F {
+    opacity: 100%;
+}
+
+#Youtube {
+    opacity: 0%;
+}
+
+#Youtube.Y {
+    opacity: 100%;
+}
+
+#Instagram {
+    opacity: 0%;
+}
+
+#Instagram.I {
+    opacity: 100%;
+}
+
+#Snapchat {
+    opacity: 0%;
+}
+
+#Snapchat.S {
+    opacity: 100%;
+}
+
+#Linkedin {
+    opacity: 0%;
+}
+
+#Linkedin.L {
+    opacity: 100%;
+}
+
+#Twitter {
+    opacity: 0%;
+}
+
+#Twitter.T {
+    opacity: 100%;
+}
+
+
